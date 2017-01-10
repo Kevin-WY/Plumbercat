@@ -2,76 +2,60 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Plumbercat</title>
+        <title>Page Not Found - Plumbercat</title>
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="Shortcut Icon" type="image/x-icon" href="Minecraft.ico" />
-        <script type="text/javascript" src="assets/js/jquery-1.3.2.js"></script>
-	    <script type="text/javascript" src="assets/js/supersized.2.0.js"></script>
+        <style type="text/css" media="screen">
+              body {
+                margin:0;
+                padding:0;
+                background: #000 url(images/404.jpg) center center fixed no-repeat;
+                -moz-background-size: cover;
+                background-size: cover;
+                }
 
-    <!-- Background Slide JS -->
-	    <script type="text/javascript">  
-            $(function(){
-                $.fn.supersized.options = {  
-                    startwidth: 1920, //Image Width 
-                    startheight: 1080, //Image Length
-                    vertical_center: 1, //1, Center. 0, None.
-                    slideshow: 1, //1, On. 0, Off.
-                    navigation: 0, //Control Buttons 1, On. 0, Off.
-                    transition: 1, //0, None. 1, Fade. 2, slide top. 3, slide right. 4, slide bottom. 5, slide left.
-                    pause_hover: 0, //Stop Slide
-                    slide_counter: 0, // 1, On. 0, Off.
-                    slide_captions: 1, //Image Name
-                    slide_interval: 3000  //Slide Timer
-                };
-                $('#supersize').supersized(); 
-            });
-	   </script>
-        
-       <style type="text/css" media="screen">
-      body {
-        background-color: #f1f1f1;
-        margin: 0;
-      }
+              .container { margin: 40px auto 40px auto; width: 600px; text-align: center;}
 
-      .container { margin: 40px auto 40px auto; width: 600px; text-align: center;}
+              a { color: #4183c4; text-decoration: none; }
+              a:hover { text-decoration: underline; }
 
-      a { color: #4183c4; text-decoration: none; }
-      a:hover { text-decoration: underline; }
+              h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+              p { color: #FFFFFF; margin: 20px 0; line-height: 1.6; text-shadow: 3px 3px 3px #444444; }
 
-      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
-      p { color: #FFFFFF; margin: 20px 0; line-height: 1.6; }
+              ul { list-style: none; margin: 25px 0; padding: 0; }
+              li { display: table-cell; font-weight: bold; width: 1%; }
 
-      ul { list-style: none; margin: 25px 0; padding: 0; }
-      li { display: table-cell; font-weight: bold; width: 1%; }
+              .logo { display: inline-block; margin-top: 35px; }
+              .logo-img-2x { display: none; }
+              @media
+              only screen and (-webkit-min-device-pixel-ratio: 2),
+              only screen and (   min--moz-device-pixel-ratio: 2),
+              only screen and (     -o-min-device-pixel-ratio: 2/1),
+              only screen and (        min-device-pixel-ratio: 2),
+              only screen and (                min-resolution: 192dpi),
+              only screen and (                min-resolution: 2dppx) {
+                .logo-img-1x { display: none; }
+                .logo-img-2x { display: inline-block; }
+              }
 
-      .logo { display: inline-block; margin-top: 35px; }
-      .logo-img-2x { display: none; }
-      @media
-      only screen and (-webkit-min-device-pixel-ratio: 2),
-      only screen and (   min--moz-device-pixel-ratio: 2),
-      only screen and (     -o-min-device-pixel-ratio: 2/1),
-      only screen and (        min-device-pixel-ratio: 2),
-      only screen and (                min-resolution: 192dpi),
-      only screen and (                min-resolution: 2dppx) {
-        .logo-img-1x { display: none; }
-        .logo-img-2x { display: inline-block; }
-      }
-
-      #suggestions {
-        margin-top: 50px;
-        color: #ccc;
-      }
-      #suggestions a {
-        color: #FFFFFF;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
-        a:link {color: #DDDDDD;}    /* 設定尚未點閱過的連結樣式 */
-        a:visited {color: #DDDDDD;} /* 設定過去曾經閱過的連結 */
-        a:hover {color:#00BBFF;}   /* 設定滑鼠游標指在連結位置上的樣式 */
-        a:active {color:#AAAAAA;}  /* 設定上點擊過的連結樣式 */
-    </style>    
+              #suggestions {
+                margin-top: 50px;
+                color: #ccc;
+                  
+              }
+              #suggestions a {
+                color: #FFFFFF;
+                font-weight: 200;
+                font-size: 14px;
+                margin: 0 10px;
+                  text-shadow: 3px 3px 3px #444444;
+                  
+              }
+                a:link {color: #DDDDDD;}    /* 設定尚未點閱過的連結樣式 */
+                a:visited {color: #DDDDDD;} /* 設定過去曾經閱過的連結 */
+                a:hover {color:#00BBFF;}   /* 設定滑鼠游標指在連結位置上的樣式 */
+                a:active {color:#AAAAAA;}  /* 設定上點擊過的連結樣式 */
+        </style>    
         
 <!-- CSS Style -->
 	   <style type="text/css">
@@ -91,99 +75,6 @@
                 font-size: 150%;
                 text-align: center;
             }
-            *{
-                margin:0;
-                padding:0;
-            }
-            a{
-                color:#8FC2FF;
-                text-decoration: none;
-                outline: none;
-            }
-            a:hover{
-                text-decoration: underline;
-            }
-            img{
-                border:none;
-            }
-            body {
-                overflow:hidden;/*Needed to eliminate scrollbars*/
-                background:#000;
-            }
-            #main{
-                z-index:3;
-            }
-            #content{
-                margin:10% auto;
-                max-width: 100%;
-                height: auto;
-                z-index: 3;
-                background: no-repeat 90%;
-                border-top:1px none #000;
-                border-bottom:1px none #4F4F4F;
-                position:absolute;
-            /*    left:31.6%;
-                top: 5%; */
-            }
-            #contentframe{
-                overflow: hidden;
-                border-top:solid 1px #4F4F4F;
-                border-bottom:1px solid #000;
-                height: auto;
-                text-align:center;
-                z-index: 3;
-            }
-            #slidecounter{
-                float:left;
-                color:#4F4F4F;
-                font:50px "Helvetica Neue", Arial, sans-serif;
-                font-weight:bold;
-                margin:18px 20px;	
-            }
-            #slidecaption{
-                overflow: hidden;
-                float:left;
-                color:#FFF;
-                font:26px "Helvetica Neue", Arial, sans-serif;
-                font-weight:bold;
-                margin:33px 0;
-            }
-            /*Supersized Stamp*/
-            .stamp{
-                float: right;
-                margin: 0;
-            }
-            /*Supersize Plugin Styles*/
-            #navigation{
-                background: url('images/navbg.gif') no-repeat;
-                float: right;
-                margin:22px 20px 0 0;
-            }
-            #loading {
-                position: absolute;
-                top: 49.5%; 
-                left: 49.5%;
-                z-index: 3;
-                width: 24px; 
-                height: 24px;
-                text-indent: -999em;
-                background-image: url(images/progress.gif);
-            }
-            #supersize{
-                position:fixed;
-            }
-            #supersize img, #supersize a{
-                height:100%;
-                width:100%;
-                position:absolute;
-                z-index: 0;
-            }
-            #supersize .prevslide, #supersize .prevslide img{
-                z-index: 1;
-            }
-            #supersize .activeslide, #supersize .activeslide img{
-                z-index: 2;
-            }
             a:link {color: #DDDDDD;}    /* 設定尚未點閱過的連結樣式 */
             a:visited {color: #DDDDDD;} /* 設定過去曾經閱過的連結 */
             a:hover {color:#00BBFF;}   /* 設定滑鼠游標指在連結位置上的樣式 */
@@ -192,65 +83,44 @@
     </head>
 <!-- Body -->
     <body class="landing">
-        
-<!--Loading display while images load-->
-    <div id="loading">&nbsp;</div>
-        
-<!-- Background Slides -->
-        <div id="supersize">
-	       <a><img src="images/famous.jpg" title="Famous"/></a>
-	       <a><img src="images/hero.jpg" title="To be a hero, you had to sacrifice old friends sometimes."/></a>
-           <a><img src="images/MVP.jpg" title="Play of The Game"/></a>
-           <a><img src="images/chk.jpg" title="Seasons Greetings!"/></a>
-           <a><img src="images/chop.jpg" title="Want Some Ravens?"/></a>
-           <a><img src="images/traitor.jpg" title="TRAITOR!"/></a>
-           <a><img src="images/shame.jpg" title="Shame on Hatty Hattington!"/></a>
-           <a><img src="images/nice.jpg" title="BE NICE!"/></a>  
-        </div>
-
         <div class="container">
-<font style="text-shadow:3px 3px 3px #444444;" color=#FFFFFF>
-    <h1><br/></h1>
-    <h1><font size="7"><strong>404</strong></font>
-    <p><font size="+5"><strong>File not found</strong></font></p>
+            <font style="text-shadow:3px 3px 3px #444444;" color=#FFFFFF>
+                <h1><br/></h1>
+                <h1><font size="7"><strong>404</font>
+                <p><font size="+5">Page Not Found</font></p>
 
-      <p>
-        The site configured at this address does not
-        contain the requested file.
-      </p>
+                  <p>
+                    Where did the page go? 404 sounds delicious! 
+                  </p>
 
-      <p>
-        If this is your site, make sure that the filename case matches the URL.<br>
-        For root URLs (like <code>http://example.com/</code>) you must provide an
-        <code>index.html</code> file.
-      </p>
+                  <p>
+                    If this is your site, make sure that the filename case matches the URL.<br>
+                    For root URLs (like <code>http://example.com/</code>) you must provide an
+                    <code>index.html</code> file.
+                  </p>
 
-      <p>
-        <a href="https://help.github.com/pages/">Read the full documentation</a>
-        for more information about using <strong>GitHub Pages</strong>.
-      </p>
-</h1>
-    <p>
-        </font>
-        
+                  <p>
+                    <a href="https://help.github.com/pages/">Read the full documentation</a>
+                    for more information about using <strong>GitHub Pages</strong>.
+                  </p>
+                </h1>
             <font size="+5">
-            <a href="http://facebook.com/wenyu" class="icon fa-facebook" style="text-decoration:none;"></a>
-            <a href="http://twitter.com/kevin_wy" class="icon fa-twitter" style="text-decoration:none;"></a>
-            <a href="https://www.linkedin.com/in/kevinpluswy" class="icon fa-linkedin" style="text-decoration:none;"></a>
-            <a href="http://twitch.com/kevin_wy" class="icon fa-twitch" style="text-decoration:none;"></a>
-            <a href="http://steamcommunity.com/id/aa48965" class="icon fa-steam" style="text-decoration:none;"></a>
-            <a href="https://github.com/Kevin-WY" class="icon fa-github-alt" style="text-decoration:none;"></a>
-            <a href="https://moztw.org/" class="icon fa-firefox" style="text-decoration:none;"></a>
-        </font>
-        </p>
+                <a href="http://facebook.com/wenyu" class="icon fa-facebook" style="text-decoration:none;"></a>
+                <a href="http://twitter.com/kevin_wy" class="icon fa-twitter" style="text-decoration:none;"></a>
+                <a href="https://www.linkedin.com/in/kevinpluswy" class="icon fa-linkedin" style="text-decoration:none;"></a>
+                <a href="http://twitch.com/kevin_wy" class="icon fa-twitch" style="text-decoration:none;"></a>
+                <a href="http://steamcommunity.com/id/aa48965" class="icon fa-steam" style="text-decoration:none;"></a>
+                <a href="https://github.com/Kevin-WY" class="icon fa-github-alt" style="text-decoration:none;"></a>
+                <a href="https://moztw.org/" class="icon fa-firefox" style="text-decoration:none;"></a>
+            </font>
+            </font>
 
 <!-- Container -->
       <div id="suggestions">
         <h1>
-            <a href="https://status.github.com/">GitHub Status</a> —
+            <a href="https://status.github.com/">GitHub Status</a>
             <a href="https://twitter.com/githubstatus">@githubstatus</a>
       </h1>
-          </div>
 <h1>
       <a href="https://plumbercat.com.tw/" class="logo logo-img-1x">
         <img title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=" width="32" height="32">

@@ -1660,6 +1660,7 @@
 	strong, b {
 		color: #FFFFFF;
 		font-weight: 700;
+        text-shadow: 3px 3px 3px #444444;
 	}
 
 	em, i {
