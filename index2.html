@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Plumbercat</title>
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="Shortcut Icon" type="image/x-icon" href="Minecraft.ico" />
+        <script type="text/javascript" src="assets/js/jquery-1.3.2.js"></script>
+	    <script type="text/javascript" src="assets/js/supersized.2.0.js"></script>
+
+    <!-- Background Slide JS -->
+	    <script type="text/javascript">  
+            $(function(){
+                $.fn.supersized.options = {  
+                    startwidth: 1920, //Image Width 
+                    startheight: 1080, //Image Length
+                    vertical_center: 1, //1, Center. 0, None.
+                    slideshow: 1, //1, On. 0, Off.
+                    navigation: 0, //Control Buttons 1, On. 0, Off.
+                    transition: 1, //0, None. 1, Fade. 2, slide top. 3, slide right. 4, slide bottom. 5, slide left.
+                    pause_hover: 0, //Stop Slide
+                    slide_counter: 0, // 1, On. 0, Off.
+                    slide_captions: 1, //Image Name
+                    slide_interval: 3000  //Slide Timer
+                };
+                $('#supersize').supersized(); 
+            });
+	   </script>
+        
+<!-- CSS Style -->
+	   <style type="text/css">
+            h1 {
+                font-size: large;
+                text-align: center;
+            }
+            h2 {
+                font-size: 350%;
+                text-align: center;
+            }
+
+            h3 {
+                font-size: 150%;
+                text-align: center;
+            }
+            *{
+                margin:0;
+                padding:0;
+            }
+            a{
+                color:#8FC2FF;
+                text-decoration: none;
+                outline: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            img{
+                border:none;
+            }
+            body {
+                overflow:hidden;/*Needed to eliminate scrollbars*/
+                background:#000;
+            }
+            #main{
+                z-index:3;
+            }
+            #content{
+                margin:10% auto;
+                max-width: 100%;
+                height: auto;
+                z-index: 3;
+                background: no-repeat 90%;
+                border-top:1px none #000;
+                border-bottom:1px none #4F4F4F;
+                position:absolute;
+            /*    left:31.6%;
+                top: 5%; */
+            }
+            #contentframe{
+                overflow: hidden;
+                border-top:solid 1px #4F4F4F;
+                border-bottom:1px solid #000;
+                height: auto;
+                text-align:center;
+                z-index: 3;
+            }
+            #slidecounter{
+                float:left;
+                color:#4F4F4F;
+                font:50px "Helvetica Neue", Arial, sans-serif;
+                font-weight:bold;
+                margin:18px 20px;	
+            }
+            #slidecaption{
+                overflow: hidden;
+                float:left;
+                color:#FFF;
+                font:26px "Helvetica Neue", Arial, sans-serif;
+                font-weight:bold;
+                margin:33px 0;
+            }
+            /*Supersized Stamp*/
+            .stamp{
+                float: right;
+                margin: 0;
+            }
+            /*Supersize Plugin Styles*/
+            #navigation{
+                background: url('images/navbg.gif') no-repeat;
+                float: right;
+                margin:22px 20px 0 0;
+            }
+            #loading {
+                position: absolute;
+                top: 49.5%; 
+                left: 49.5%;
+                z-index: 3;
+                width: 24px; 
+                height: 24px;
+                text-indent: -999em;
+                background-image: url(images/progress.gif);
+            }
+            #supersize{
+                position:fixed;
+            }
+            #supersize img, #supersize a{
+                height:100%;
+                width:100%;
+                position:absolute;
+                z-index: 0;
+            }
+            #supersize .prevslide, #supersize .prevslide img{
+                z-index: 1;
+            }
+            #supersize .activeslide, #supersize .activeslide img{
+                z-index: 2;
+            }
+            a:link {color: #DDDDDD;}    /* 設定尚未點閱過的連結樣式 */
+            a:visited {color: #DDDDDD;} /* 設定過去曾經閱過的連結 */
+            a:hover {color:#00BBFF;}   /* 設定滑鼠游標指在連結位置上的樣式 */
+            a:active {color:#AAAAAA;}  /* 設定上點擊過的連結樣式 */		
+        </style>
+    </head>
+
+<!-- Body -->
+    <body class="landing">
+        
+<!--Loading display while images load-->
+    <div id="loading">&nbsp;</div>
+        
+<!-- Background Slides -->
+        <div id="supersize">
+	       <a><img src="images/famous.jpg" title="Famous"/></a>
+	       <a><img src="images/hero.jpg" title="To be a hero, you had to sacrifice old friends sometimes."/></a>
+           <a><img src="images/MVP.jpg" title="Play of The Game"/></a>
+           <a><img src="images/chk.jpg" title="Seasons Greetings!"/></a>
+           <a><img src="images/chop.jpg" title="Want Some Ravens?"/></a>
+           <a><img src="images/traitor.jpg" title="TRAITOR!"/></a>
+           <a><img src="images/shame.jpg" title="Shame on Hatty Hattington!"/></a>
+           <a><img src="images/nice.jpg" title="BE NICE!"/></a>  
+        </div>
+
+<!-- Content -->
+    <div id="content">
+        <h2><font color="#FFFFFF" style="text-shadow:3px 3px 3px #666666;">Plumbercat</font></h2>
+        <h3><font color="#FFFFFF" style="text-shadow:3px 3px 3px #666666;">A wild animal on the Internet <br /> No Game No Life!</font></h3>
+        <h2></h2><h2></h2>
+        <ul class="icons">
+            <font style="text-shadow:3px 3px 3px #444444;">
+            <font size="6">
+                <li></li>
+                <li><a href="http://facebook.com/wenyu" class="icon fa-facebook" style="text-decoration:none;"></a></li>
+                <li><a href="http://twitter.com/kevin_wy" class="icon fa-twitter" style="text-decoration:none;"></a></li>
+                <li><a href="https://www.linkedin.com/in/kevinpluswy" class="icon fa-linkedin" style="text-decoration:none;"></a></li>
+                <li><a href="http://twitch.com/kevin_wy" class="icon fa-twitch" style="text-decoration:none;"></a></li>           
+                <li><a href="http://steamcommunity.com/id/aa48965" class="icon fa-steam" style="text-decoration:none;"></a></li>
+                <li><a href="https://github.com/Kevin-WY" class="icon fa-github" style="text-decoration:none;"></a></li>
+                <li><a href="https://moztw.org/" class="icon fa-firefox" style="text-decoration:none;"></a></li>
+            </font>        
+        </ul>
+        <br><h1><b><font color="#FFFFFF">Main.CSS Original Design:</font> <a href="http://templated.co">TEMPLATED</a></h1>
+        </font>
+    </div>
+        
+<!-- Scripts -->
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
